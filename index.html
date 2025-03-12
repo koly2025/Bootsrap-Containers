@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Containers</title>
+
+    <!-- ✅ Bootstrap CDN লিংক -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        /* ✅ কাস্টম স্টাইল (ব্যাকগ্রাউন্ড রঙ ও ডিজাইন) */
+        .box {
+            padding: 20px;  /* ভিতরের জায়গা */
+            text-align: center;  /* লেখা মাঝখানে আনবে */
+            color: white;  /* ফন্টের রঙ সাদা */
+            font-size: 20px;  /* ফন্ট সাইজ */
+        }
+        .box1 { background-color: #17a2b8; } /* নীল ব্যাকগ্রাউন্ড */
+        .box2 { background-color: #28a745; } /* সবুজ ব্যাকগ্রাউন্ড */
+        .box3 { background-color: #ffc107; } /* হলুদ ব্যাকগ্রাউন্ড */
+        .box4 { background-color: #dc3545; } /* লাল ব্যাকগ্রাউন্ড */
+    </style>
+</head>
+<body>
+
+    <!-- ✅ ডিফল্ট Container (ফিক্সড-ওয়াইড) -->
+    <div class="container my-5">
+        <h2 class="text-center">ডিফল্ট Container</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ ফ্লুইড Container (পুরো স্ক্রিন জুড়ে) -->
+    <div class="container-fluid my-5">
+        <h2 class="text-center">ফ্লুইড Container</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ ছোট স্ক্রিন এবং তার উপরে কাজ করবে -->
+    <div class="container-sm my-5">
+        <h2 class="text-center">Container-sm</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ মিডিয়াম স্ক্রিন এবং তার উপরে কাজ করবে -->
+    <div class="container-md my-5">
+        <h2 class="text-center">Container-md</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ বড় স্ক্রিন এবং তার উপরে কাজ করবে -->
+    <div class="container-lg my-5">
+        <h2 class="text-center">Container-lg</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ এক্সট্রা লার্জ স্ক্রিন এবং তার উপরে কাজ করবে -->
+    <div class="container-xl my-5">
+        <h2 class="text-center">Container-xl</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ এক্সট্রা এক্সট্রা লার্জ স্ক্রিন এবং তার উপরে কাজ করবে -->
+    <div class="container-xxl my-5">
+        <h2 class="text-center">Container-xxl</h2>
+        <div class="row">
+            <div class="col-md-3"><div class="box box1">কলাম 1</div></div>
+            <div class="col-md-3"><div class="box box2">কলাম 2</div></div>
+            <div class="col-md-3"><div class="box box3">কলাম 3</div></div>
+            <div class="col-md-3"><div class="box box4">কলাম 4</div></div>
+        </div>
+    </div>
+
+    <!-- ✅ Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
